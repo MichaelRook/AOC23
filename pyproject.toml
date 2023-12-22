@@ -2,11 +2,13 @@
 name = "aoc23"
 version = "0.1.0"
 description = "Advent of Code 2023"
-authors = ["Michael Rook <michael.rook@live.nl>"]
+authors = ["Michael Rook"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+inflect = "^7.0.0"
+word2number = "^1.1"
 
 
 [build-system]
